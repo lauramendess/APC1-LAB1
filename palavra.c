@@ -6,7 +6,7 @@ int main (){
  int i = 0;
  char palavra[21];
  
- printf("Digite seu nome:\n");
+ printf("Digite uma palavra:\n");
  fgets(palavra, sizeof(palavra), stdin);
  
  for (i = 0; i < 21; i++) {
